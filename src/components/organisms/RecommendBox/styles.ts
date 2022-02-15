@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background: var(--dark-0);
+  background: var(--boxDark);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   margin: 0 1rem 1rem 0;
   cursor: pointer;

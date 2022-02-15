@@ -14,6 +14,7 @@ export const GlobalStyles = createGlobalStyle`
        --dark-1: #000000;
        --dark-2: #131717;
        --dark-3:#070707;
+       --boxDark: #181818;
        --brown-1: rgb(100,84,76)
    }
 
