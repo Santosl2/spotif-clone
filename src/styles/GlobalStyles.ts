@@ -18,6 +18,22 @@ export const GlobalStyles = createGlobalStyle`
        --brown-1: rgb(100,84,76)
    }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark-0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
    body {
     font-family: 'Open Sans', sans-serif;
    }
