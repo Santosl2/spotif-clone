@@ -1,4 +1,10 @@
-import { PlaylistBody, Navbar, Header } from "@/components/templates";
+import {
+  PlaylistBody,
+  Navbar,
+  Header,
+  UsersNavbar,
+  PlaylistBar,
+} from "@/components/templates";
 import { Main } from "@/styles/GlobalComponents";
 
 export function Index() {
@@ -7,6 +13,8 @@ export function Index() {
       <Header />
       <Navbar />
       <PlaylistBody />
+      <UsersNavbar />
+      <PlaylistBar />
     </Main>
   );
 }

@@ -13,6 +13,7 @@ export const GlobalStyles = createGlobalStyle`
        --dark-0-hover: #414444;
        --dark-1: #000000;
        --dark-2: #131717;
+       --dark-3:#070707;
        --brown-1: rgb(100,84,76)
    }
 

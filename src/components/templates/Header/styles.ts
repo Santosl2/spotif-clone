@@ -16,7 +16,7 @@ export const Container = styled.header<Props>`
   align-items: center;
 
   background-color: ${(props) =>
-    props.bgActive ? "var(--brown-1)" : "var(--dark-2)"};
+    props.bgActive ? "var(--brown-1)" : "var(--dark-3)"};
 `;
 
 export const LeftContent = styled.div`
