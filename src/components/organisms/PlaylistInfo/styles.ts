@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   font-size: 0.875rem;
+  width: 320px;
 
   p {
     font-weight: bold;
