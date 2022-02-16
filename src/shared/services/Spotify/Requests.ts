@@ -13,3 +13,11 @@ export async function getPlaylistByCategory(
     return response.body.playlists.items;
   } catch {}
 }
+
+export async function getRandomSongByArtist(artist: string) {
+  try {
+    const response = await spotify.searchTracks(artist);
+
+    return response.body.tracks?.items;
+  } catch {}
+}

@@ -6,4 +6,16 @@ export const Container = styled.nav`
   height: 100%;
   color: white;
   grid-area: FN;
+  padding: 1rem;
+
+  #friendHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #eee;
+
+    svg {
+      font-size: 24px;
+    }
+  }
 `;

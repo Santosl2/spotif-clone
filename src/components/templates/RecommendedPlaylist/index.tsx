@@ -1,5 +1,5 @@
 import { Divider } from "@/components/atoms";
-import { RecommendBox } from "@/components/organisms/RecommendBox";
+import { RecommendBox } from "@/components/organisms";
 import { ResponsePlaylistProps } from "@/shared/interfaces/Playlist";
 import { getPlaylistByCategory } from "@/shared/services/Spotify/Requests";
 import { useEffect, useState } from "react";

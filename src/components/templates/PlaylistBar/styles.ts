@@ -8,4 +8,6 @@ export const Container = styled.nav`
   grid-area: PB;
   border-top: 1px solid #545454;
   padding: 1rem;
+  display: flex;
+  justify-content: space-between;
 `;
